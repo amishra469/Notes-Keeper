@@ -1,10 +1,17 @@
 import React from "react";
-import Header from "./header.jsx";
-import Footer from "./footer.jsx";
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 import Content from "./content.jsx";
 
 function App(){
-    return <div> Hello World</div>
+    return (
+        <div> 
+            <Header />
+
+            <Footer />
+
+        </div>
+    );
 }
 
 export default App;
